@@ -7,6 +7,7 @@ This project is a simple OpenGL-based renderer that demonstrates how to utilize 
 - **Basic Rendering**: Supports rendering of basic shapes and models using OpenGL.
 - **Camera System**: A simple camera system for navigating the rendered scene.
 - **Shader Support**: Allows the use of custom vertex and fragment shaders.
+- **ImGui Integration**: Provides an interactive UI for controlling various aspects of the renderer, such as camera settings, lighting parameters, and shader properties.
 
 ## Dependencies
 
@@ -18,6 +19,8 @@ The following libraries are required for building and running the project:
   - [GLFW GitHub](https://github.com/glfw/glfw)
 - **GLEW (OpenGL Extension Wrangler Library)**: For managing OpenGL extensions and ensuring compatibility.
   - [GLEW Website](http://glew.sourceforge.net/)
+- **ImGui (Immediate Mode GUI Library)**: For creating a graphical user interface within the OpenGL window.
+  - [ImGui GitHub](https://github.com/ocornut/imgui)
 
 Make sure to install these dependencies before building the project.
 
